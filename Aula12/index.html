@@ -1,0 +1,207 @@
+!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+
+    <title>Conteúdo Aula12 - HTML</title>
+  
+    <style>
+
+      /* Alinhando divs com float */
+
+      .div-float {
+        width: 100%;
+        overflow: auto;
+      }
+
+      .div-float div {
+        width: 33%;
+        float: left;
+      }
+
+      /* Alinhando divs com o inline-block */
+
+      .div-inline-block {
+        width: 100%;
+      }
+
+      .div-inline-block div {
+        display: inline-block;
+      }
+
+      /* Alinhando divs com o flex */
+
+      .div-flex {
+        display: flex;
+      }
+
+      .div-flex div{
+        width: 33%;
+      }
+
+      /* Alinhando divs com o grid */
+
+      .div-grid {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+      }
+
+
+    </style>
+  
+  </head>
+  <body>
+
+    <h1>DIV em HTML</h1>
+
+    <h2>DIV como Contêiner</h2>
+
+    <div style="background-color: dimgrey;">
+      <h2>Isso é um h2</h2>
+      <p>Isso é um parágrafo.</p>
+      <p>Isso é outro parágrafo.</p>
+    </div>
+
+    <hr>
+
+    <h2>Centralizando div</h2>
+
+    <div style="
+      background-color: darkkhaki;
+      width: 250px;
+      margin: auto;
+    ">
+      <h2>Isso é um h2</h2>
+      <p>Isso é um parágrafo.</p>
+      <p>Isso é outro parágrafo.</p>
+    </div>
+
+    <hr>
+
+    <h2>Várias divs no documento</h2>
+
+    <div style="background-color: orange;">
+      <h2>Isso é um h2</h2>
+      <p>Isso é um parágrafo.</p>
+      <p>Isso é outro parágrafo.</p>
+    </div>
+
+    <div style="background-color: orangered;">
+      <h2>Isso é um h2</h2>
+      <p>Isso é um parágrafo.</p>
+      <p>Isso é outro parágrafo.</p>
+    </div>
+
+    <div style="background-color: olivedrab;">
+      <h2>Isso é um h2</h2>
+      <p>Isso é um parágrafo.</p>
+      <p>Isso é outro parágrafo.</p>
+    </div>
+
+    <hr>
+
+    <h2>Alinhando divs lado a lado</h2>
+
+    <h3>Alinhando com o float</h3>
+
+    <div class="div-float">
+
+      <div style="background-color: orange;">
+        <h2>Isso é um h2</h2>
+        <p>Isso é um parágrafo.</p>
+        <p>Isso é outro parágrafo.</p>
+      </div>
+
+      <div style="background-color: orangered;">
+        <h2>Isso é um h2</h2>
+        <p>Isso é um parágrafo.</p>
+        <p>Isso é outro parágrafo.</p>
+      </div>
+
+      <div style="background-color: olivedrab;">
+        <h2>Isso é um h2</h2>
+        <p>Isso é um parágrafo.</p>
+        <p>Isso é outro parágrafo.</p>
+      </div>
+
+    </div>
+
+    <br>
+
+    <h3>Alinhando divs com o inline-block</h3>
+
+    <div class="div-inline-block">
+
+      <div style="background-color: orange;">
+        <h2>Isso é um h2</h2>
+        <p>Isso é um parágrafo.</p>
+        <p>Isso é outro parágrafo.</p>
+      </div>
+
+      <div style="background-color: orangered;">
+        <h2>Isso é um h2</h2>
+        <p>Isso é um parágrafo.</p>
+        <p>Isso é outro parágrafo.</p>
+      </div>
+
+      <div style="background-color: olivedrab;">
+        <h2>Isso é um h2</h2>
+        <p>Isso é um parágrafo.</p>
+        <p>Isso é outro parágrafo.</p>
+      </div>
+
+    </div>
+
+    <br>
+
+    <h3>Alinhando divs com flex</h3>
+
+    <div class="div-flex">
+
+      <div style="background-color: orange;">
+        <h2>Isso é um h2</h2>
+        <p>Isso é um parágrafo.</p>
+        <p>Isso é outro parágrafo.</p>
+      </div>
+
+      <div style="background-color: orangered;">
+        <h2>Isso é um h2</h2>
+        <p>Isso é um parágrafo.</p>
+        <p>Isso é outro parágrafo.</p>
+      </div>
+
+      <div style="background-color: olivedrab;">
+        <h2>Isso é um h2</h2>
+        <p>Isso é um parágrafo.</p>
+        <p>Isso é outro parágrafo.</p>
+      </div>
+
+    </div>
+
+    <br>
+
+    <h3>Alinhando divs com o grid</h3>
+
+    <div class="div-grid">
+
+      <div style="background-color: orange;">
+        <h2>Isso é um h2</h2>
+        <p>Isso é um parágrafo.</p>
+        <p>Isso é outro parágrafo.</p>
+      </div>
+
+      <div style="background-color: orangered;">
+        <h2>Isso é um h2</h2>
+        <p>Isso é um parágrafo.</p>
+        <p>Isso é outro parágrafo.</p>
+      </div>
+
+      <div style="background-color: olivedrab;">
+        <h2>Isso é um h2</h2>
+        <p>Isso é um parágrafo.</p>
+        <p>Isso é outro parágrafo.</p>
+      </div>
+
+    </div>
+
+  </body>
+</html>
