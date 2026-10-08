@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    
+    <title>Conteúdo Aula13 - HTML</title>
+  
+    <style>
+
+      #meu-h2 {
+        background-color: cadetblue;
+        color: darkkhaki;
+        padding: 10px;
+        border: 4px solid darkkhaki;
+      }
+
+    </style>
+
+  </head>
+  <body>
+    
+    <h1>ID no HTML</h1>
+
+    <h2 id="meu-h2">Eu sou um h2 com ID</h2>
+
+    <hr>
+
+    <h3>Id com JavaScript</h3>
+
+    <h4 id="meu-h4">Turma SP15</h4>
+
+    <button onclick="mudarConteudo()">Alterar Conteúdo</button>
+
+    <script>
+
+      function mudarConteudo() {
+        document.getElementById("meu-h4").innerHTML = "Somente a dor coletiva gera união.";
+        document.getElementById("meu-h4").style.color = "orangered";
+        document.getElementById("meu-h4").style.fontSize = "30px";
+      }
+
+    </script>
+
+  </body>
+</html>
