@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Contéudo Aula15 - HTML</title>
+  </head>
+  <body>
+    
+    <h1>JavaScript no HTML</h1>
+
+    <h3>Exemplo de elemento noscript no HTML</h3>
+
+    <p id="meu-paragrafo"></p>
+
+    <button onclick="adicionarConteudo()">Adicionar Conteúdo</button>
+
+    <script>
+
+      function adicionarConteudo() {
+        document.getElementById("meu-paragrafo").innerHTML = "Somente a dor coletiva gera união!";
+      }
+
+    </script>
+
+    <noscript>Desculpe! O seu JavaScript está desabilitado.</noscript>
+
+  </body>
+</html>
