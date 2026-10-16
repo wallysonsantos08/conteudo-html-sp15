@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conteúdo Aula16 - HTML</title>
+  </head>
+  <body>
+
+    <h1>Introdução a Formulário no HTML </h1>
+
+    <form>
+
+      <label for="p-nome">Primeiro Nome:</label><br>
+      <input type="text" name="p-nome" id="p-nome"><br>
+      <label for="u-nome">Último Nome:</label><br>
+      <input type="text" name="u-nome" id="u-nome"><br>
+      <input type="button" value="Enviar Dados">
+
+    </form>
+
+    <hr>
+
+    <h3>Input tipo Radio</h3>
+
+    <form>
+      <input type="radio" name="tec-opcoes" id="html" value="HTML">
+      <label for="html">HTML</label>
+      <br>
+      <input type="radio" name="tec-opcoes" id="css" value="CSS">
+      <label for="css">CSS</label>
+      <br>
+      <input type="radio" name="tec-opcoes" id="js" value="JavaScript">
+      <label for="js">JavaScript</label>
+      <br>
+    </form>
+
+    <hr>
+
+    <h3>Input tipo Checkbox</h3>
+
+    <form>
+      <input type="checkbox" name="fruta1" id="laranja" value="Laranja">
+      <label for="laranja">Laranja</label>
+      <br>
+      <input type="checkbox" name="fruta2" id="maracuja" value="Maracujá">
+      <label for="maracuja">Maracujá</label>
+      <br>
+      <input type="checkbox" name="fruta3" id="morango" value="Morango">
+      <label for="morango">Morango</label>
+      <br>
+    </form>
+
+    <hr>
+
+    <h3>Input tipo Submit</h3>
+
+    <form action="./index.html">
+      <label for="nome">Nome</label>
+      <input type="text" name="nome" id="nome">
+      <input type="submit" value="Enviar">
+    </form>
+
+  </body>
+</html>

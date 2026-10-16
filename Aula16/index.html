@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conteudo aula 16</title>
+
+    <style>
+        .esq{
+            background-color: aliceblue;
+            padding: 20px;
+            width: 20%;
+            float: left;
+        }
+
+        .meio{
+            background-color: aliceblue;
+            padding: 20px;
+            width: 60%;
+            float: left;
+        }
+
+        .dir{
+            background-color: aliceblue;
+            padding: 20px;
+            width: 20%;
+            float: left;
+        }
+
+        @media screen and(max-windth: 600px) {
+            .esq, .meio, .dir{
+                width: 100%;
+            }
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Responsividade no HMTL</h1>
+
+    <h3>Imagem responsiva com width: 100%</h3>
+    <hr>
+
+    <img src="carro-senna.png" alt="Imagem do carro do senna" style="width: 100%;">
+    <hr>
+
+    <h3>Imagem responsiva com max-windth</h3>
+
+    <img src="carro-senna.png" alt="carro-senna" style="max-width: 100%;">
+    <hr>
+
+    <h3 style="font-size: 3vw;">Texto responsivo com a unidade de medida vw</h3>
+
+    <p style="font-size: 3vw;">Somente a dor coletiva gera a uniao</p>
+
+    <h3>Responsividade com midia query</h3>
+
+    <div class="esq">
+        <p>Div Esquerda</p>
+    </div>
+
+    <div class="meio">
+        <p>Div Centro</p>
+    </div>
+
+    <div class="dir">
+        <p>Div Direita</p>
+    </div>
+
+    
+</body>
+</html>
